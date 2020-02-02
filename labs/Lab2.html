@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    <a name="#top"></a><a href='#bottom'>Bottom</a>
+    <ul>
+        <li>Butter</li>
+        <ul>
+            <li>Pound</li>
+            <li>Red </li>
+            <ul>
+                <li>Red With Fruits</li>
+            </ul>
+            <li>Cho</li>
+        </ul>
+        <li>Sponge</li>
+        <ul>
+            <li>Choco</li>
+            <li>Angle</li>
+        </ul>
+        <li>Fruits</li>
+        <ol>
+            <li>Orange</li>
+            <li>Apple</li>
+        </ol>
+    </ul>
+    <hr />
+    <table width='100%' border='1'>
+        <tr>
+            <th>1-1</td>
+            <th>1-2</th>
+            <th>1-3</th>
+            <th>1-4</th>
+            <th>1-4</th>
+            <th>1-6</th>
+        </tr>
+        <tr>
+            <td>2-1</td>
+            <td>2-2</td>
+            <td>2-3</td>
+            <td>2-4</td>
+            <td>2-5</td>
+            <td>2-6</td>
+        </tr>
+        <tr>
+            <td>3-1</td>
+            <td>3-2</td>
+            <td>3-3</td>
+            <td>3-4</td>
+            <td colspan="2">3-5</td>
+        </tr>
+        <tr>
+            <td>4-1</td>
+            <td colspan="4">4-2</td>
+            <td>4-3</td>
+        </tr>
+        <tr>
+            <td>5-1</td>
+            <td>5-2</td>
+            <td colspan="4">5-3</td>
+        </tr>
+    </table>
+    <hr />
+    <h1>Feedback Form</h1>
+    <p>Please Enter your feddback to help improve the site quality </p>
+    <form>
+        First name: <input type='text' name='first_name' /><br /> <br />
+        Last Name: <input type='text' name='last_name' /><br /> <br />
+        Password: <input type='password' name='password' /><br /><br />
+        Comments: <br />
+        <textarea cols="30" rows='10'>Enter TExt Here</textarea> <br /><br />
+        Email Address: <input type='email' name='email' /> <span>Email should be in this form name@domain.com</span><br /><br />
+        Date: <input type='datetime-local' name='date' /><br /><br />
+        Color: <input type='color' name='your_color' /><br /><br />
+        File upload: <input type='file' name='file_upload' accept="images/*" /><br /><br />
+        <h3>Things you likes </h3>
+        <input type='checkbox' name='likes' />Site Design  <br />
+        <input type='checkbox' name='likes' />Links  <br />
+        <input type='checkbox' name='likes' />Ease of use <br /><br />
+        <h4>How did you get to our website</h4>
+        <input type='radio' name='method' />Search engine <br />
+        <input type='radio' name='method' />Links from another website <br />
+        <input type='radio' name='method' />Friend<br />
+        <input type='radio' name='method' />Other<br />
+        Site Rating <select name='rate'>
+            <option value='good'> Good</option>
+            <option value='soso'> SO So</option>
+            <option value='bad'>Bad</option>
+        </select><br /><br />
+        Your opinion <input type='range' min="0" max="20" name='rang' /><br /><br />
+        <input type="submit" name='submit' value='Submit' />
+        <input type="reset" name='reset' value="Reset" />
+        <input type="button" style='background-color: royalblue; color: white' name='Button' value='Cancel' />
+    </form>
+    <a name="#bottom"></a> <a href='#top'>Top</a><br /><br />
+    <audio controls>
+        <source src='audio.mp3' type='audio/mpeg' />
+    </audio>
+    <video controls>
+        <source src='video.mp4' type='video/mp4' />
+    </video>
+</body>
+</html>
